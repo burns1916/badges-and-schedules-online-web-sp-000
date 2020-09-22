@@ -22,5 +22,6 @@ end
 def printer
 batch_badge_creator
 assign_rooms
-puts badge_messege_array + room_assign_array
+print badge_messege_array
+print room_assign_array
 end
