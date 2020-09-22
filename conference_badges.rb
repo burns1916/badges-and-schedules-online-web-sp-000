@@ -22,6 +22,10 @@ end
 def printer
 batch_badge_creator
 assign_rooms
-print badge_messege_array
-print room_assign_array
+badge_messege_array.each do |badges|
+  puts "badges"
+end
+room_assign_array.each do |rooms|
+  puts "rooms"
+end
 end
